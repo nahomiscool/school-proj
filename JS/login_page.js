@@ -20,7 +20,7 @@ class credentials {
     }
 }
 let credential = new credentials();
-
+//higher order function
 
 function validateUserInfo(){
     if(username.value === credential.userKey && password.value === credential.passKey){
