@@ -92,4 +92,127 @@
     width: 250px;
     height: 350px;
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ /* Registration Form Styles */   
+}
+.Regstration-form {
+    width: 850px;
+    margin: 40px auto;
+    padding: 25px 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* ===== Title & subtitle ===== */
+.Regstration-form h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.Regstration-form p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* ===== Labels ===== */
+.Regstration-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* ===== Inputs & selects ===== */
+.Regstration-form input,
+.Regstration-form select {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+}
+
+.Regstration-form input:focus,
+.Regstration-form select:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 4px rgba(74, 144, 226, 0.4);
+}
+
+/* ===== Dropdown spacing ===== */
+.Regstration-form select {
+    margin-top: 10px;
+}
+
+/* ===== Course list box ===== */
+.course-list {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9fafc;
+    border: 1px solid #ddd;
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+.course-list h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.course-list p {
+    padding: 6px 8px;
+    margin: 4px 0;
+    background-color: #ffb30e;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    color: #001F3D;
+}
+
+/* ===== Register button ===== */
+#register-button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#register-button:hover {
+    background-color: #357abd;
+    transform: translateY(-2px);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+    .Regstration-form {
+        width: 95%;
+    }
 }
