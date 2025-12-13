@@ -58,7 +58,7 @@ function displayOnScreen(){
 regstrationForm.addEventListener('submit', function(event){
     event.preventDefault();
     getStudentInfo();
-    
+    window.location.href = "Finance.html";
     
 });
 
