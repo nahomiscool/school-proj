@@ -1,0 +1,13 @@
+.studInfo{
+    background-color: rgb(131, 136, 141);
+    width: 50%;
+    height: 200px;
+}
+.overView{
+    background-color: rgb(188, 194, 201);
+    width: 50%;
+    height: 200px;
+}
+p{
+    text-align: center;
+}

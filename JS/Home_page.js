@@ -13,7 +13,7 @@ let programStatus = document.getElementById('program-status');
 let grade = document.getElementById('class-level');
 let semester = document.getElementById('semester');
 let courseList = document.getElementById('course-list-js');
-let Student;
+export let Student;
 
 div.id = "dropDown";
 logoutButton.id = "logout_button";
@@ -51,10 +51,6 @@ function displayOnScreen(){
         courseList.appendChild(p);
     }
 }
-
-
-
-
 regstrationForm.addEventListener('submit', function(event){
     event.preventDefault();
     getStudentInfo();

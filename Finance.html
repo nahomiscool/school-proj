@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="/css/Finance.css">
 </head>
 <body>
     <div class="header" id="header-js">
@@ -18,11 +19,26 @@
             </ul>
             <img src="IMG/man.png" alt="profile" class="profile-icon">
     </div>
+    <div class="studInfo">
+        <p>Student Information</p>
+        <p id="name-js"></p>
+        <p id="id-js"></p>
+        <p id="grade-js"></p>
+    </div>
+    <div class="overView">
+        <p>Fee Overview</p>
+        <p id="total-js"></p>
+        <p id="balance-js" ></p>
+        <p id="dueDate-js" ></p>
+        <p id="status-js" ></p>
+    </div>
+
     <footer>
         <p>&copy; 2024 Unity Academy. All rights reserved.</p>
     </footer>
 
 
-    <script src="JS/Home_page.js" ></script>
+    <script type="module" src="JS/Finance.js"></script>
+    <script type="module" src="JS/data.js" ></script>
 </body>
 </html>

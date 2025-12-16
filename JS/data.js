@@ -11,6 +11,13 @@ export class studentInfo{
         this.PaymentStatus = PaymentStatus;
     }
 }
+export class paymentInfo{
+    balance = 1000;
+    total = 2000;
+    dueDate = "2023-12-31";
+    total = 2000;
+}
+
 
 export class courseInfo{
     constructor(){
@@ -19,6 +26,9 @@ export class courseInfo{
         this.courseGrade = [1,2,3,4,5,6,7,8,9,10,11,12];
     }
 }
+
+
+
 
 
 

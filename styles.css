@@ -88,27 +88,17 @@
     background:#E6E6E6;
 }
 
-.gallery-image{
+.image1 ,.image2, .image3{
     width: 250px;
-    height: 350px;
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    height: 350px; 
+    margin: 30px 30px;
+    align-self: center;
  /* Registration Form Styles */   
 }
+
+
+
+
 .Regstration-form {
     width: 850px;
     margin: 40px auto;
