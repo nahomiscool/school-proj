@@ -1,8 +1,8 @@
 .header{
     background: linear-gradient(45deg, #001F3D 50%, #00509E 100%);
     position: relative;
-    
-    
+}
+body{
 }
 .nav-links{
     display: flex;
@@ -85,8 +85,145 @@
 .main{
     height: 600px;
     width: 100%;
-    background:#E6E6E6;
+    background-image: url('/IMG/pexels-expressivestanley-1454360.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    h1, p{
+        text-align: center;
+        margin-left: 23%;
+        background: linear-gradient(45deg, #001e3d93 10%, #004f9e91 100%);
+        
+        padding: 10px;
+        width:50%;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-family: cursive;
+    };
+    p{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    };
 }
+
+
+
+/* ================= Announcement Section ================= */
+.Announcement{
+    padding: 40px;
+    width: 94.3%;
+    min-height: 600px;
+    background-color: #E6E6E6;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* ================= Modern Cards ================= */
+.Scadule,
+.Assignment,
+.Grade,
+.Exam{
+    background: linear-gradient(180deg, #ffffff, #f8faff);
+    border-radius: 14px;
+    padding: 22px;
+    min-height: 220px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover animation */
+.Scadule:hover,
+.Assignment:hover,
+.Grade:hover,
+.Exam:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+}
+
+/* ================= Accent Top Line ================= */
+.Scadule::before,
+.Assignment::before,
+.Grade::before,
+.Exam::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6px;
+    width: 100%;
+}
+
+.Scadule::before{ background: #2563eb; }
+.Assignment::before{ background: #f59e0b; }
+.Grade::before{ background: #10b981; }
+.Exam::before{ background: #ef4444; }
+
+/* ================= Titles ================= */
+.Scadule h2,
+.Assignment h2,
+.Grade h2,
+.Exam h2{
+    text-align: center;
+    margin-bottom: 18px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 20px;
+    color: #001F3D;
+}
+
+/* ================= Content Rows ================= */
+.Scadule p,
+.Assignment p,
+.Exam p{
+    background: #f1f5ff;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ================= Icon Watermark ================= */
+.Scadule::after,
+.Assignment::after,
+.Grade::after,
+.Exam::after{
+    content: "📚";
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+    font-size: 70px;
+    opacity: 0.08;
+}
+
+.Assignment::after{ content: "📝"; }
+.Grade::after{ content: "🎓"; }
+.Exam::after{ content: "⏰"; }
+
+/* ================= News Section ================= */
+.News{
+    grid-column: 1 / -1;
+    background-color: #9b9b9b;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+}
+
+.News h2{
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
 .image1 ,.image2, .image3{
     width: 250px;
@@ -95,6 +232,14 @@
     align-self: center;
  /* Registration Form Styles */   
 }
+
+
+
+
+
+
+
+
 
 
 
