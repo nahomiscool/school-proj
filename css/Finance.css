@@ -1,13 +1,112 @@
 .studInfo{
-    background-color: rgb(131, 136, 141);
-    width: 50%;
-    height: 200px;
+    background-color: rgb(252, 252, 252);
+    width: 300px;
+    min-height: 150px;
+    padding: 5px;
+    margin: 10px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 12px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.082);
+    display: inline-block;
+    vertical-align: top;
+    h3{
+        text-align: center;
+    }
+    p{
+        font-weight: bold;
+        display: inline-block;
+        color: gray;
+    }
+    ul{
+        list-style: none;
+        
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px dashed #eee;
+        font-size: 14px;
+    }
+    span{
+        padding: 15px;
+        font-weight: bold;
+    }
+    
 }
 .overView{
-    background-color: rgb(188, 194, 201);
-    width: 50%;
-    height: 200px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.082);
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    vertical-align:Top;
+    width:600px;
+    padding: 30px;
+    margin: 10px;
+    align-content: center;
+    border-radius: 12px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    table, th, td {
+        border: 0px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        text-align: left;
+        
+        
+    }
+    
+    tr{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
 }
 p{
     text-align: center;
+    
 }
+.finance-breakdown {
+    background: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 400px;
+    
+    h3 {
+        margin-top: 0;
+        font-size: 1.1rem;
+        color: #333;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        display: flex;
+        justify-content: space-between; /* Pushes text to left and right */
+        padding: 12px 0;
+        border-bottom: 1px dashed #eee;
+        font-size: 14px;
+    }
+    .total-row {
+        border-bottom: none;
+        margin-top: 10px;
+        padding-top: 15px;
+        font-size: 18px;
+        border-top: 2px solid #333;
+    }
+    strong {
+        color: #00509E; /* Your primary blue color */
+    }   
+    li strong {
+        color: #000;
+    }
+    li span {
+        color: #666;
+    }
+}
+
+

@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="./css/Styles.css">
+    <link rel="stylesheet" href="./css/Teachers.css">
 </head>
 <body>
     <div class="header" id="header-js">
-            <img src="/IMG/photo_2025-09-28_09-52-49-removebg-preview.png" alt="Logo" class="logo">
+            <img src="./IMG/photo_2025-09-28_09-52-49-removebg-preview.png" alt="Logo" class="logo">
             <ul class="nav-links">
                 <li ><a href="Home.html">Home</a></li>
                 <li ><a href="Regstration.html">Registration</a></li>
@@ -16,13 +17,13 @@
                 <li ><a href="Finance.html">Finance</a></li>
                 <li ><a href="Grade.html">Grade</a></li>
             </ul>
-            <img src="IMG/man.png" alt="profile" class="profile-icon">
+            <img src="./IMG/man.png" alt="profile" class="profile-icon">
     </div>
-    <footer>
-        <p>&copy; 2024 Unity Academy. All rights reserved.</p>
-    </footer>
+    <div class="teacher-grid" id="teacher-grid-js"></div>      
+    
 
-
-    <script src="JS/Home_page.js" ></script>
+    <script type="module" src="./JS/Teachers.js" ></script>
+    <script type="module" src="./JS/Home_page.js" ></script>
+    <script type="module" src="./JS/data.js"></script>
 </body>
 </html>

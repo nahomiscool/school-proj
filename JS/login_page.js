@@ -2,9 +2,6 @@ let username = document.getElementById('username-js');
 let password = document.getElementById('password-js');
 let form = document.querySelector('.login-form');
 let p = document.createElement("p");
-
-
-
 p.style.color = "red";
 p.style.position = "absolute";
 p.style.bottom = "20px"

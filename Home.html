@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="./css/Styles.css">
 </head>
 <body>
+    
     <div class="header" id="header-js">
-            <img src="/IMG/photo_2025-09-28_09-52-49-removebg-preview.png" alt="Logo" class="logo">
+            <img src="./IMG/photo_2025-09-28_09-52-49-removebg-preview.png" alt="Logo" class="logo">
             <ul class="nav-links">
                 <li ><a href="Home.html">Home</a></li>
                 <li ><a href="Regstration.html">Registration</a></li>
@@ -16,8 +17,9 @@
                 <li ><a href="Finance.html">Finance</a></li>
                 <li ><a href="Grade.html">Grade</a></li>
             </ul>
-            <img src="IMG/man.png" alt="profile" class="profile-icon">
+            <img src="./IMG/man.png" alt="profile" class="profile-icon">
     </div>
+    
     <div class="main">
         <h1>Welcome Nahom Zewdu</h1>
         <p> ID: 06464/16 | Program: Computer Scince | Year: 3 </p>
@@ -35,6 +37,8 @@
         </div>
         <div class="Grade">
             <h2>Grade</h2>
+            <p>Prev.GPA  3.13</p>
+            <p>CGPA 3.40</p>
         </div>
         <div class="Exam">
             <h2>Upcoming Exam Scheduals</h2>
@@ -43,12 +47,45 @@
         </div>
 
         <div class="News">
-            <h2>Announcements</h2>
-            <p> No Announcements Yet </p>
+            <h2>EVENTS</h2>
+            <div class="news-container">
+                <div class="News1">
+                    <h1>Chess tournament</h1> 
+                    <h3>Calling all strategists! Put your skills to the test at our School <br>Chess  Tournament.
+                        <br>
+                        When: Sunday 2:30AM
+                        <br>
+                        Where: Room 7
+                        <br>
+                        Bring your focus—and may the best mind win!
+                    </h3>
+                </div>
+                <div class="News2" >
+
+                    <h1>Science Fair</h1>
+                    <h3>Showcase your innovative projects at our annual Science Fair!
+                        <br>
+                        When: Saturday 10:00AM
+                        <br>
+                        Where: Main Hall
+                        <br>
+                        Don't miss the chance to inspire and be inspired!
+                    </h3>
+                </div>
+                <div class="News3" >
+                    <h1>Charity Club</h1>
+                    <h3> Join Charity club to make a difference in our community!
+                        <br>
+                        When: Friday 5:00PM
+                        <br>
+                        Where: Auditorium
+                        <br>
+                        Join us for an evening of giving back and spreading kindness!
+                    </h3>
+                </div>
+                <!-- News items will be dynamically inserted here -->  
+            </div>       
         </div>
-
-
-        
     </div>
 
 
@@ -64,6 +101,7 @@
     </footer>
 
 
-    <script src="JS/Home_page.js" ></script>
+    <script type="module" src="JS/Home_page.js" ></script>
+    <script type="module" src="JS/data.js"></script>
 </body>
 </html>

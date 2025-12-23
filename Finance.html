@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="Styles.css">
-    <link rel="stylesheet" href="/css/Finance.css">
+    <link rel="stylesheet" href="./css/Styles.css">
+    <link rel="stylesheet" href="./css/Finance.css">
 </head>
 <body>
     <div class="header" id="header-js">
@@ -20,19 +20,105 @@
             <img src="IMG/man.png" alt="profile" class="profile-icon">
     </div>
     <div class="studInfo">
-        <p>Student Information</p>
-        <p id="name-js"></p>
-        <p id="id-js"></p>
-        <p id="grade-js"></p>
-    </div>
-    <div class="overView">
-        <p>Fee Overview</p>
-        <p id="total-js"></p>
-        <p id="balance-js" ></p>
-        <p id="dueDate-js" ></p>
-        <p id="status-js" ></p>
-    </div>
+        <h3>Student Information</h3>
+        <ul>
+            <li>
+                <p>Full Name: </p>
+                <span>Nahom Zewdu</span>
+            </li>
+            <li>
+                <p>ID: </p>
+                <span>06464/16</span>
+            </li>
+            <li>
+                <p>Department: </p>
+                <span>COSC</span>
+            </li>
+            <li>
+                <p>Total Balance Due: </p>
+                <span>$3000</span>
+            </li>
+            <li>
+                <p>Next pay: </p>
+                <span>2-12-2025</span>
+            </li>
 
+        </ul>
+    </div>
+        
+    <div class="overView">
+        <table style = "width: 100%">
+            <tr>
+                <th>Course Title</th>
+                <th>Course No</th>
+                <th>Cr</th>
+                <th>Lab hr</th>
+            </tr>
+            <tr>
+                <td bgcolor="#e0e0e0" >Data structure</td>
+                <td bgcolor="#e0e0e0" >COSC3061</td>
+                <td bgcolor="#e0e0e0" >4</td>
+                <td bgcolor="#e0e0e0" >2</td>
+            </tr>
+            <tr>
+                <td>Database Managment</td>
+                <td>COSC3071</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td bgcolor="#e0e0e0" >Computer Graphics</td>
+                <td bgcolor="#e0e0e0" >COSC3062</td>
+                <td bgcolor="#e0e0e0" >3</td>
+                <td bgcolor="#e0e0e0" >2</td>
+            </tr>
+            <tr>
+                <td>Internet Programing I</td>
+                <td>COSC3081</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td bgcolor="#e0e0e0" >Computer Networking</td>
+                <td bgcolor="#e0e0e0" >COSC3031</td>
+                <td bgcolor="#e0e0e0" >3</td>
+                <td bgcolor="#e0e0e0" >2</td>
+            </tr>
+            <tr>
+                <td>History of Ethiopia</td>
+                <td>COSC1012</td>
+                <td>3</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th colspan="1" style="text-align: right;" >Total:</th>
+                <th colspan="1" ></th>
+                <th colspan="1" style="text-align: left;" >19</th>
+                <th colspan="1" style="text-align: left;">10</th>
+            </tr>
+        </table>
+    </div>
+    <div class="finance-breakdown">
+        <h3>Fee Breakdown</h3>
+        <ul>
+            <li>
+                <span>Tuition (19 Cr × $350)</span>
+                <strong>$6,650</strong>
+            </li>
+            <li>
+                <span>Lab Fees (10 Hrs × $100)</span>
+                <strong>$1,000</strong>
+            </li>
+            <li>
+                <span>Registration Fee</span>
+                <strong>$500</strong>
+            </li>
+            <li class="total-row">
+                <span>Total Balance</span>
+                <strong>$8,150</strong>
+            </li>
+        </ul>
+    </div>
     <footer>
         <p>&copy; 2024 Unity Academy. All rights reserved.</p>
     </footer>
