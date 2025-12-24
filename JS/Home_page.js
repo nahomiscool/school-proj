@@ -1,6 +1,6 @@
 import { studentInfo } from "./data.js";
 import { displayCourses } from "./data.js";
-import { coursesByGrade } from "./data.js";
+//import { coursesByGrade } from "./data.js";
 import { teachersInfo } from "./data.js";
 let header = document.getElementById('header-js');
 let div = document.createElement('div');
@@ -53,17 +53,17 @@ function displayOnScreen(){
     }
 }
 
-regstrationForm.addEventListener('submit', function(event){
-    event.preventDefault();
-    getStudentInfo();
-    window.location.href = "Finance.html";
+//regstrationForm.addEventListener('submit', function(event){
+  //  event.preventDefault();
+    //getStudentInfo();
+    //window.location.href = "Finance.html";
 
-});
+//});
 
-grade.addEventListener('change', function(){
-    getStudentInfo();
-    displayOnScreen();
-});
+//grade.addEventListener('change', function(){
+ //   getStudentInfo();
+  //  displayOnScreen();
+//});
 
 
 

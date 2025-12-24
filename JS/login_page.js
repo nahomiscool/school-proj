@@ -7,23 +7,15 @@ p.style.position = "absolute";
 p.style.bottom = "20px"
 
 
+userKey = "admin";
+passKey = "admin";
 
 
 
-class credentials {
-    constructor(){
-        this.userKey = "admin";
-        this.passKey = "12345";
-    }
-}
-let credential = new credentials();
-//higher order function
 
 function validateUserInfo(){
-    if(username.value === credential.userKey && password.value === credential.passKey){
+    if(username.value === userKey && password.value === passKey){
         window.location.href = "Home.html";
-        
-
     }else if(username.value === "" || password.value === ""){
         p.textContent = "Please enter username and password to login.";
         p.style.left = "70px";

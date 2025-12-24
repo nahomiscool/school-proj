@@ -55,8 +55,32 @@ export function displayCourses(student){
 
 
 export const Course = [
-    {}
-]
+    {
+        id: "1",
+        title: "Database Management",
+        results: [19, 5, 10, 7, 30] // Mid, Assess, Lab, Project, Final
+    },
+    {
+        id: "2",
+        title: "Database Structure",
+        results: [20, 10, 10, 10, 50]
+    },
+    {
+        id: "3",
+        title: "Computer Graphics",
+        results: [15, 8, 5, 9, 40]
+    },
+    {
+        id: "4",
+        title: "Computer Networking",
+        results: [18, 9, 10, 8, 45]
+    },
+    {
+        id: "5",
+        title: "History of Ethiopia",
+        results: [20, 10, 10, 10, 48]
+    }
+];
 
 
 
