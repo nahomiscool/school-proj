@@ -2,9 +2,9 @@
     background-color: rgb(252, 252, 252);
     width: 300px;
     min-height: 150px;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
-    
+    align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.103);
     border-radius: 12px;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.082);
@@ -42,7 +42,6 @@
     width:600px;
     padding: 30px;
     margin: 10px;
-    align-content: center;
     border-radius: 12px;
     display: inline-block;
     align-items: center;
@@ -58,6 +57,11 @@
     
     tr{
         font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        text-align: center;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
     }
     
 }
@@ -109,4 +113,48 @@ p{
     }
 }
 
+.overView1{
+    background-color: rgb(252, 252, 252);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.082);
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    width:700px;
+    padding: 30px;
+    margin: 10px;
+    margin-left: 50px;
+    border-radius: 12px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    vertical-align:bottom;
+    h4{
+        text-align: center;
+        display: inline-block;
+        font-weight: bold;
+        
+    }
+    span{
+        padding: 15px;
+        font-weight: bold;
+        display: inline-block;
+        color: gray;
+    }
+    table, th, td {
+        border: 0px solid rgba(0, 0, 0, 0.384);
+        border-collapse: collapse;
+        padding: 5px;
+        text-align: left;
+        
+        
+    }
+    
+    tr{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        text-align: center;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+    }
+    
+}
 
