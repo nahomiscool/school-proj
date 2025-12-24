@@ -32,38 +32,7 @@ export class courseInfo{
 
 
 
-export const coursesByGrade = {
-  "1": [
-    { name: "Math", code: "MATH101" },
-    { name: "English", code: "ENG101" },
-    { name: "Amharic", code: "AMH101" },
-    { name: "Computer", code: "COMP101" },
-    { name: "Sport", code: "SPORT101" }
-  ],
-  "5": [
-    { name: "Math", code: "MATH105" },
-    { name: "English", code: "ENG105" },
-    { name: "Biology", code: "BIO105" },
-    { name: "Chemistry", code: "CHEM105" },
-    { name: "History", code: "HIST105" }
-  ],
-  "9": [
-    { name: "Math", code: "MATH109" },
-    { name: "English", code: "ENG109" },
-    { name: "Physics", code: "PHY109" },
-    { name: "Civics", code: "CIVICS109" },
-    { name: "Economics", code: "ECON109" }
-  ],
-  "11": [
-    { name: "Math", code: "MATH111" },
-    { name: "English", code: "ENG111" },
-    { name: "Physics", code: "PHY111" },
-    { name: "Chemistry", code: "CHEM111" },
-    { name: "Biology", code: "BIO111" },
-    { name: "Geography", code: "GEO111" },
-    { name: "Art", code: "ART111" }
-  ]
-};
+
 
 
 export function displayCourses(student){
@@ -82,6 +51,12 @@ export function displayCourses(student){
         console.log(coursesByGrade["11"]);
     }
 }
+
+
+
+export const Course = [
+    {}
+]
 
 
 

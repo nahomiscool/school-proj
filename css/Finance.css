@@ -4,6 +4,7 @@
     min-height: 150px;
     padding: 10px;
     margin: 10px;
+    
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.103);
     border-radius: 12px;
@@ -40,6 +41,7 @@
     border: 1px solid rgba(0, 0, 0, 0.103);
     vertical-align:Top;
     width:600px;
+    position:relative;
     padding: 30px;
     margin: 10px;
     border-radius: 12px;
@@ -118,7 +120,7 @@ p{
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.082);
     border: 1px solid rgba(0, 0, 0, 0.103);
     width:700px;
-    padding: 30px;
+    padding:0px 30px 0px 30px;
     margin: 10px;
     margin-left: 50px;
     border-radius: 12px;
@@ -156,5 +158,16 @@ p{
         padding-bottom: 10px;
     }
     
+}
+
+select{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    position:absolute;
+    height: 25px;
+    left: 460px;
+    width:50%;
+    Top:160px;
 }
 
