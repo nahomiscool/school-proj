@@ -1,11 +1,11 @@
 .header{
     display: grid;
-    grid-template-columns: 100px auto 1fr 60px; /* layout: logo | nav | flexible | profile */
+    grid-template-columns: 100px auto 1fr 100px; /* layout: logo | nav | flexible | profile */
     align-items: center;
     
-    border: 1px solid rgb(241, 241, 241) ;
+    border: 1px solid rgb(230, 230, 230) ;
     border-bottom: 0px;
-    padding: 0px 20px;
+    padding: 10px 20px;
     padding-left:10px;
 }
 
@@ -15,21 +15,22 @@
     width: 60%;
     align-self:flex-end;
     justify-self: center;
-    
-    
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(187, 187, 187, 0.219);
 }
 
 
 /* li styles */
 .nav-links li{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     list-style: none;
     margin-left: 7px;
     color: black;
     padding: 7px;
     border-radius: 7px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
     cursor: pointer;
 }
 ul{
@@ -45,8 +46,8 @@ ul{
 
 /* hover */
 .nav-links li:hover{
-    background-color: #E6E6E6;
-    color: #001F3D;
+    background-color:black;
+    color: white;
 }
 
 .logo{
@@ -57,7 +58,7 @@ ul{
     width: 40px;
     height: 40px;
     align-self:flex-end;
-        
+    justify-self: center;    
 }
 
 
@@ -75,7 +76,7 @@ ul{
     height: 30px;
     background-color: gray;
     position: absolute;
-    right: 10px;
+    right: 25px;
     Top: 100px;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -97,9 +98,7 @@ ul{
 /* Home page body */
 
 
-body{
-    
-}
+
 .main{
     height: 600px;
     width: 100%;
@@ -107,14 +106,16 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     align-content: center;
+    justify-items: center;
     h1, p{
         text-align: center;
-        margin-left: 23%;
-        background: linear-gradient(45deg, #001e3d93 10%, #004f9e91 100%);
         
+        
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.082);
+    
         padding: 10px;
         width:50%;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-size: 40px;
         font-family: cursive;
     };
