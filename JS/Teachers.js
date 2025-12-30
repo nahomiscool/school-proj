@@ -8,6 +8,7 @@ for(let i = 0; i <teachersInfo.length; i++){
         <img  src="${teachersInfo[i].image}" class="teacher-photo"></img>
         <h3>${teachersInfo[i].name}</h3>
         <p>${teachersInfo[i].subject}</p>
+        <p class="stars">${ratig(i)}</p>
     </div>`;
 }
 
